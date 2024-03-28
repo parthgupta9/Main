@@ -124,6 +124,7 @@ const Login = () => {
               }}
               type="text"
               name="name"
+              placeholder="Text here"
               value={userData.name}
               onChange={handleChange}
             />
@@ -167,6 +168,7 @@ const Login = () => {
               }}
               type="email"
               name="email"
+              placeholder="Text here"
               value={userData.email}
               onChange={handleChange}
             />

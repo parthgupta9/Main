@@ -55,6 +55,25 @@ const App = () => {
               objectFit: "cover",
             }}
           />
+          <a
+            className="loginBtn"
+            href="/Login"
+            style={{
+              color: "#000",
+              position: "absolute",
+              top: "20px",
+              right: "20px",
+              backgroundColor: "#FFE454",
+              textDecoration: "none",
+              fontFamily: "Montserrat",
+              letterSpacing: "0",
+              padding: "4px 12px",
+              cursor: "pointer",
+              borderRadius: "14px",
+            }}
+          >
+            Login
+          </a>
           <div
             className="card"
             style={{
@@ -240,9 +259,6 @@ const App = () => {
             Register Now
           </Link>
         </div>
-        <Link to="/Login" className="login-link">
-          Login
-        </Link>
       </div>
     </>
   );
